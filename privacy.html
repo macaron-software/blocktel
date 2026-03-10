@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOCkTEL - Politique de confidentialite / Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.7; color: #1a1a1a; background: #f5f5f5; }
+        .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
+        h1 { color: #1B5E20; font-size: 28px; margin-bottom: 8px; }
+        h2 { color: #1B5E20; font-size: 20px; margin: 32px 0 12px; border-bottom: 2px solid #E8F5E9; padding-bottom: 8px; }
+        h3 { font-size: 16px; margin: 20px 0 8px; }
+        p, li { margin-bottom: 12px; font-size: 15px; }
+        ul { padding-left: 24px; }
+        .lang-switch { text-align: right; margin-bottom: 24px; }
+        .lang-switch a { color: #1B5E20; text-decoration: none; font-weight: 600; padding: 4px 12px; border: 1px solid #1B5E20; border-radius: 4px; }
+        .lang-switch a.active { background: #1B5E20; color: white; }
+        .section { background: white; border-radius: 12px; padding: 24px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        .updated { color: #666; font-size: 13px; margin-bottom: 24px; }
+        code { background: #E8F5E9; padding: 2px 6px; border-radius: 3px; font-size: 13px; }
+        [lang="en"] { display: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="lang-switch">
+        <a href="#" id="btn-fr" class="active" onclick="switchLang('fr')">FR</a>
+        <a href="#" id="btn-en" onclick="switchLang('en')">EN</a>
+    </div>
+
+    <!-- FRENCH -->
+    <div lang="fr">
+        <h1>BLOCkTEL - Politique de confidentialite</h1>
+        <p class="updated">Derniere mise a jour : 10 mars 2026</p>
+
+        <div class="section">
+            <h2>1. Donnees collectees</h2>
+            <p><strong>BLOCkTEL ne collecte aucune donnee personnelle.</strong></p>
+            <p>L'application fonctionne entierement en local sur votre appareil. Aucune information n'est transmise a un serveur distant, aucun identifiant n'est cree, aucune donnee n'est partagee avec des tiers.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Donnees stockees localement</h2>
+            <p>Les seules donnees stockees le sont sur votre appareil, dans l'espace prive de l'application :</p>
+            <ul>
+                <li><strong>Regles de prefixes</strong> : la liste des prefixes actives/desactives et vos prefixes personnalises.</li>
+                <li><strong>Historique des appels bloques</strong> : les 200 derniers numeros bloques avec horodatage et prefixe correspondant.</li>
+                <li><strong>Compteur</strong> : le nombre total d'appels bloques.</li>
+            </ul>
+            <p>Ces donnees sont stockees via <code>SharedPreferences</code> Android et ne sont accessibles qu'a BLOCkTEL.</p>
+        </div>
+
+        <div class="section">
+            <h2>3. Permissions utilisees</h2>
+            <ul>
+                <li><strong>BIND_SCREENING_SERVICE</strong> : permet a Android de router les appels entrants vers le service de filtrage de BLOCkTEL. C'est la permission centrale qui permet le blocage.</li>
+                <li><strong>READ_PHONE_STATE</strong> : necessaire pour detecter l'etat du telephone lors d'un appel entrant.</li>
+                <li><strong>READ_CALL_LOG</strong> : requis par le systeme pour le fonctionnement du service de filtrage d'appels sur certaines versions d'Android.</li>
+                <li><strong>RECEIVE_BOOT_COMPLETED</strong> : permet a BLOCkTEL de rester actif apres un redemarrage de l'appareil.</li>
+            </ul>
+            <p>Aucune de ces permissions n'est utilisee pour collecter, transmettre ou exploiter vos donnees personnelles.</p>
+        </div>
+
+        <div class="section">
+            <h2>4. Publicite et traceurs</h2>
+            <p>BLOCkTEL ne contient aucune publicite, aucun SDK de tracking, aucun outil d'analyse (analytics), et aucun traceur de quelque nature que ce soit.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Partage de donnees</h2>
+            <p>Aucune donnee n'est partagee avec des tiers. BLOCkTEL ne communique avec aucun serveur.</p>
+        </div>
+
+        <div class="section">
+            <h2>6. Suppression des donnees</h2>
+            <p>La desinstallation de l'application supprime automatiquement toutes les donnees stockees localement. Vous pouvez egalement effacer l'historique des appels bloques depuis le menu de l'application.</p>
+        </div>
+
+        <div class="section">
+            <h2>7. Contact</h2>
+            <p>Pour toute question relative a cette politique de confidentialite :</p>
+            <p>Macaron Software<br/>
+            Email : contact@macaron-software.com<br/>
+            GitHub : <a href="https://github.com/macaron-software/blocktel">github.com/macaron-software/blocktel</a></p>
+        </div>
+    </div>
+
+    <!-- ENGLISH -->
+    <div lang="en">
+        <h1>BLOCkTEL - Privacy Policy</h1>
+        <p class="updated">Last updated: March 10, 2026</p>
+
+        <div class="section">
+            <h2>1. Data collected</h2>
+            <p><strong>BLOCkTEL does not collect any personal data.</strong></p>
+            <p>The application runs entirely locally on your device. No information is sent to any remote server, no identifiers are created, no data is shared with third parties.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Data stored locally</h2>
+            <p>The only data stored is on your device, in the application's private storage:</p>
+            <ul>
+                <li><strong>Prefix rules</strong>: the list of enabled/disabled prefixes and your custom prefixes.</li>
+                <li><strong>Blocked call history</strong>: the last 200 blocked numbers with timestamps and matched prefix.</li>
+                <li><strong>Counter</strong>: the total number of blocked calls.</li>
+            </ul>
+            <p>This data is stored via Android <code>SharedPreferences</code> and is only accessible to BLOCkTEL.</p>
+        </div>
+
+        <div class="section">
+            <h2>3. Permissions used</h2>
+            <ul>
+                <li><strong>BIND_SCREENING_SERVICE</strong>: allows Android to route incoming calls to BLOCkTEL's screening service. This is the core permission enabling call blocking.</li>
+                <li><strong>READ_PHONE_STATE</strong>: required to detect phone state during incoming calls.</li>
+                <li><strong>READ_CALL_LOG</strong>: required by the system for the call screening service on some Android versions.</li>
+                <li><strong>RECEIVE_BOOT_COMPLETED</strong>: allows BLOCkTEL to remain active after device reboot.</li>
+            </ul>
+            <p>None of these permissions are used to collect, transmit, or exploit your personal data.</p>
+        </div>
+
+        <div class="section">
+            <h2>4. Advertising and trackers</h2>
+            <p>BLOCkTEL contains no advertising, no tracking SDKs, no analytics tools, and no trackers of any kind.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Data sharing</h2>
+            <p>No data is shared with third parties. BLOCkTEL does not communicate with any server.</p>
+        </div>
+
+        <div class="section">
+            <h2>6. Data deletion</h2>
+            <p>Uninstalling the application automatically deletes all locally stored data. You can also clear the blocked call history from the application menu.</p>
+        </div>
+
+        <div class="section">
+            <h2>7. Contact</h2>
+            <p>For any questions regarding this privacy policy:</p>
+            <p>Macaron Software<br/>
+            Email: contact@macaron-software.com<br/>
+            GitHub: <a href="https://github.com/macaron-software/blocktel">github.com/macaron-software/blocktel</a></p>
+        </div>
+    </div>
+</div>
+
+<script>
+function switchLang(lang) {
+    document.querySelectorAll('[lang="fr"]').forEach(el => el.style.display = lang === 'fr' ? 'block' : 'none');
+    document.querySelectorAll('[lang="en"]').forEach(el => el.style.display = lang === 'en' ? 'block' : 'none');
+    document.getElementById('btn-fr').classList.toggle('active', lang === 'fr');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+}
+</script>
+
+</body>
+</html>

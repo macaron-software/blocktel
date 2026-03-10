@@ -1,0 +1,1 @@
+Automatically blocks French telemarketing calls (ARCEP spam prefixes).

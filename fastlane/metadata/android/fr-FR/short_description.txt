@@ -1,0 +1,1 @@
+Bloque automatiquement les appels de demarchage (prefixes ARCEP France).

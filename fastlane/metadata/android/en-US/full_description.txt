@@ -1,0 +1,29 @@
+BLOCkTEL automatically blocks telemarketing calls in France.
+
+The app uses the official list of phone prefixes assigned by ARCEP (French telecom authority) to commercial telemarketing to silently filter unwanted calls: no ring, no notification.
+
+BLOCKED PREFIXES:
+- 01 62, 01 63 (Ile-de-France / Paris area)
+- 02 70, 02 71 (North-West)
+- 03 77, 03 78 (North-East)
+- 04 24, 04 25 (South-East)
+- 05 68, 05 69 (South-West)
+- 09 48, 09 49 (National VoIP)
+- 09 475 to 09 479 (Overseas territories)
+
+FEATURES:
+- 17 pre-configured ARCEP prefixes
+- Individual toggle per prefix
+- Custom prefix support
+- Blocked call counter (total + today)
+- Recent blocked calls history
+
+PRIVACY:
+- No data collection
+- No remote servers
+- Everything stays on your device
+- No advertising
+
+Blocked calls remain visible in the system call log for full transparency.
+
+Requires Android 10 or higher.

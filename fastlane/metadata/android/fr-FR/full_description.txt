@@ -1,0 +1,29 @@
+BLOCkTEL bloque automatiquement les appels de demarchage telephonique en France.
+
+L'application utilise la liste officielle des prefixes attribues par l'ARCEP au demarchage commercial pour filtrer silencieusement les appels indesirables : pas de sonnerie, pas de notification.
+
+PREFIXES BLOQUES :
+- 01 62, 01 63 (Ile-de-France)
+- 02 70, 02 71 (Nord-Ouest)
+- 03 77, 03 78 (Nord-Est)
+- 04 24, 04 25 (Sud-Est)
+- 05 68, 05 69 (Sud-Ouest)
+- 09 48, 09 49 (VoIP national)
+- 09 475 a 09 479 (Outre-mer)
+
+FONCTIONNALITES :
+- 17 prefixes ARCEP pre-configures
+- Activation/desactivation individuelle par prefixe
+- Ajout de prefixes personnalises
+- Compteur d'appels bloques (total + aujourd'hui)
+- Historique des derniers appels bloques
+
+RESPECT DE LA VIE PRIVEE :
+- Aucune collecte de donnees
+- Aucun serveur distant
+- Tout reste sur votre appareil
+- Aucune publicite
+
+L'appel bloque reste visible dans le journal d'appels systeme pour une transparence totale.
+
+Necessite Android 10 ou superieur.

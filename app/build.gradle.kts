@@ -15,14 +15,27 @@ android {
         versionName = "1.0.0"
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file("blocktel-release.keystore")
+            storePassword = System.getenv("BLOCKTEL_KEYSTORE_PASSWORD") ?: "BlockTel2026Release!"
+            keyAlias = "blocktel-key"
+            keyPassword = System.getenv("BLOCKTEL_KEY_PASSWORD") ?: "BlockTel2026Release!"
+        }
+    }
+
     buildTypes {
         release {
+            signingConfig = signingConfigs.getByName("release")
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            ndk {
+                debugSymbolLevel = "SYMBOL_TABLE"
+            }
         }
     }
 
