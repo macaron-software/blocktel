@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BLOCkTEL</string>
+
+    <!-- Status -->
+    <string name="status_active">Protection active — %d prefixes bloques</string>
+    <string name="status_inactive">Protection desactivee</string>
+    <string name="role_warning">BLOCkTEL doit etre autorise comme service de filtrage d\'appels</string>
+    <string name="grant_permission">Autoriser</string>
+    <string name="screening_granted">Filtrage d\'appels active</string>
+    <string name="screening_denied">Filtrage refuse — le blocage ne fonctionnera pas</string>
+
+    <!-- Stats -->
+    <string name="stats_total">%d</string>
+    <string name="stats_today">%d</string>
+    <string name="label_total">Appels bloques (total)</string>
+    <string name="label_today">Bloques aujourd\'hui</string>
+
+    <!-- Sections -->
+    <string name="section_prefixes">Prefixes bloques (ARCEP)</string>
+    <string name="section_recent">Appels bloques recents</string>
+
+    <!-- Actions -->
+    <string name="add_prefix_title">Ajouter un prefixe</string>
+    <string name="add">Ajouter</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="delete_prefix_title">Supprimer le prefixe</string>
+    <string name="delete_prefix_message">Supprimer le prefixe %s ?</string>
+    <string name="prefix_too_short">Le prefixe doit contenir au moins 3 chiffres</string>
+
+    <!-- Menu -->
+    <string name="menu_add_prefix">Ajouter un prefixe</string>
+    <string name="menu_select_all">Tout activer</string>
+    <string name="menu_deselect_all">Tout desactiver</string>
+    <string name="menu_clear_log">Effacer l\'historique</string>
+</resources>

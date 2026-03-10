@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield shape -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M54,18 L84,30 L84,54 C84,72 72,86 54,92 C36,86 24,72 24,54 L24,30 Z" />
+    <!-- Phone with slash (blocked) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,40 L46,44 C44,46 43,49 43,52 C43,55 44.5,58.5 47,61 C49.5,63.5 53,65 56,65 C59,65 62,64 64,62 L68,66 L66,68 L40,42 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,42 L66,42 L66,56 L62,52 L62,46 L56,46 Z" />
+</vector>

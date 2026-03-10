@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1B5E20</color>
+    <color name="primary_dark">#0D3B0F</color>
+    <color name="accent">#D97706</color>
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="divider">#E0E0E0</color>
+
+    <color name="status_active">#1B5E20</color>
+    <color name="status_active_bg">#E8F5E9</color>
+    <color name="status_inactive">#B71C1C</color>
+    <color name="status_inactive_bg">#FFEBEE</color>
+    <color name="warning">#E65100</color>
+
+    <color name="blocked_badge">#C62828</color>
+</resources>
