@@ -10,3 +10,12 @@
 local.properties
 /app/build
 *.keystore
+build/
+dist/
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.db
+target/
