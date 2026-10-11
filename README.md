@@ -67,14 +67,14 @@ Les prefixes ci-dessous sont ceux officiellement attribues par l'ARCEP au demarc
 
 ### Depuis les releases GitHub
 
-1. Telecharger le dernier APK depuis la page [Releases](https://github.com/macaron-software/blocktel/releases)
+1. Telecharger le dernier APK depuis la page [Releases](https://github.com/macaron-software/blocktel/releases/tag/v1.0) ou directement via [app-release.apk](https://github.com/macaron-software/blocktel/releases/download/v1.0/app-release.apk)
 2. Installer l'APK sur le telephone (activer "Sources inconnues" si necessaire)
 3. Ouvrir BLOCkTEL et accepter l'autorisation de filtrage d'appels
 
 ### Via ADB
 
 ```bash
-adb install blocktel-v1.0.0.apk
+adb install app-release.apk
 ```
 
 ## Build

@@ -67,14 +67,14 @@ The prefixes below are officially assigned by ARCEP (French telecom authority) t
 
 ### From GitHub releases
 
-1. Download the latest APK from the [Releases](https://github.com/macaron-software/blocktel/releases) page
+1. Download the latest APK from the [Releases](https://github.com/macaron-software/blocktel/releases/tag/v1.0) page or directly via [app-release.apk](https://github.com/macaron-software/blocktel/releases/download/v1.0/app-release.apk)
 2. Install the APK on the phone (enable "Unknown sources" if needed)
 3. Open BLOCkTEL and grant the call screening permission
 
 ### Via ADB
 
 ```bash
-adb install blocktel-v1.0.0.apk
+adb install app-release.apk
 ```
 
 ## Build
